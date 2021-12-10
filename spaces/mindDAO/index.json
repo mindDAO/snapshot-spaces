@@ -1,0 +1,25 @@
+{
+  // your project name
+  "name": "mindDAO",
+  // chain-id for harmony. can not change it
+  "network": "1666600000",
+  "symbol": "MIND",
+  "strategies": [
+    {
+      // statistic method. can not change it
+      "name": "erc20-balance-of",
+      "params": {
+        // your HRC20 token address
+        "address": "0x00eeeeeeeeeeeeeeeeeeeeeeeeeeee9eeeeeeeee",
+        "symbol": "ONE",
+        // your HRC20 token decimals
+        "decimals": 18
+      }
+    }
+  ],
+  "members": [],
+  "filters": {
+    "defaultTab": "all",
+    "minScore": 0
+  }
+}
